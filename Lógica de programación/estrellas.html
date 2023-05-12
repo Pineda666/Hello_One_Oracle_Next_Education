@@ -1,0 +1,28 @@
+<meta charset="UTF-8">
+
+<h1>Programa - calcular puntos de un equipo de futbol</h1>
+
+<script>
+
+    function saltarLinea() {
+        document.write("<br>");
+    }
+
+    function imprimir(mensaje) {
+        document.write(mensaje);
+        saltarLinea();
+    }
+
+    function asteriscos(numero){
+        for(var i=1; i <= numero; i++){
+            imprimir("**********");
+        }
+    }
+
+    var numeroDeAsteriscos = parseInt(prompt("Ingrese la cantidad de asteriscos: "));
+
+    asteriscos(numeroDeAsteriscos);
+
+
+
+</script>

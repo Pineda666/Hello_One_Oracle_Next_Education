@@ -1,0 +1,27 @@
+<meta charset="UTF-8">
+
+<h1>Programa - calcular puntos de un equipo de futbol</h1>
+
+<script>
+
+    function saltarLinea() {
+        document.write("<br>");
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    function imprimir(mensaje) {
+        document.write(mensaje);
+        saltarLinea();
+    }
+
+    var victorias = prompt("Informe la cantidad de victorias");
+    var empates = prompt("Informe la cantidad de empates");
+
+    // texto*numero = numero
+
+    var puntosTotal = (victorias*3)+(empates*1);
+
+    imprimir("El total de puntos del equipo es: "+ puntosTotal);
+
+</script>
