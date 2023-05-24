@@ -1,0 +1,95 @@
+header {
+    background-color: #bbbbbb;
+    padding: 20px 0;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none; /* para quitar el subrayado */
+}
+
+nav a:hover{
+    color: #c78c19
+}
+
+.principal{
+    background: #cccccc;
+    padding: 20px;
+}
+
+.principal h2{
+    font-size: 20px;
+    text-align: center;
+}
+
+.principal p{
+    text-align: center;
+    background: #cccccc;
+}
+
+.principal strong{
+    color: red;
+}
+
+#mision{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.diferenciales{
+    width: 940px;
+    height: 600px;
+    margin: 0 auto;
+    background: url(diferenciales/diferenciales.jpg);
+    padding: 10px;
+}
+
+.diferenciales h3{
+    text-align: center;
+    color: #ffffff;
+}
+
+.diferenciales li{
+    font-style: italic;
+    color: #ffffff;
+}
+
+.diferenciales ul{
+    /* ocupa solo el espacio del contenido */
+    display: inline-block ;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
+
+.copyright{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+}
